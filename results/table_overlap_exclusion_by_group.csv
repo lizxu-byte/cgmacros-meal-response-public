@@ -1,0 +1,4 @@
+group,episodes,plausible_episodes,excluded_overlap,pct_of_all_episodes,pct_of_plausible_episodes,per_participant_pct_median,per_participant_pct_q1,per_participant_pct_q3,kw_p_per_participant
+healthy,582,539,75,12.89,13.91,9.677,6.876,19.36,0.01104
+prediabetes,582,556,38,6.529,6.835,6.066,0,8.485,0.01104
+t2d,445,418,20,4.494,4.785,3.195,0,6.309,0.01104

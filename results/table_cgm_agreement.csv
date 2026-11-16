@@ -1,0 +1,5 @@
+subset,n_participants,n_pairs,bias_mgdl,loa_low,loa_high,mard_pct,mard_pct_pooled,pearson_r,per_participant_bias_median,per_participant_bias_q1,per_participant_bias_q3,per_participant_mard_median
+all,45,1.043e+05,-31.65,-80.39,17.09,24.89,24.41,0.8308,-32.89,-39.68,-24.94,23.74
+healthy,15,3.412e+04,-36.85,-77.6,3.899,30.03,29.63,0.6922,-33.53,-50.22,-26.2,28.75
+prediabetes,16,3.687e+04,-29.77,-75.47,15.92,24.06,23.24,0.7597,-31.63,-38.42,-19.89,22.54
+t2d,14,3.334e+04,-28.23,-86.94,30.49,20.32,20.37,0.8291,-29.96,-36.41,-25.08,20.07

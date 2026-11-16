@@ -1,0 +1,4 @@
+group,n,age_median,bmi_median,hba1c_median,fasting_glucose_median,insulin_median,male_pct
+healthy,15,40,25.8,5.3,96,9.3,33.33
+prediabetes,16,54,32.76,5.95,110.5,17.5,31.25
+t2d,14,52.5,30.62,7.1,149,13.2,42.86

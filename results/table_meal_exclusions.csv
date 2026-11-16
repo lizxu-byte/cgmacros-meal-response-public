@@ -1,0 +1,9 @@
+device_subset,meal_records,episodes,excl_implausible_nutrients,excl_overlap_next_meal,excl_no_baseline_reading,excl_cgm_not_covering_window,excl_cgm_gap_in_window,eligible,eligible_with_long_flat_only,eligible_with_long_sloped_only,eligible_with_long_flat_and_sloped
+dexcom,1706,1609,96,133,19,17,4,1340,33,75,3
+dexcom_healthy,1706,582,43,75,8,3,0,453,11,31,3
+dexcom_prediabetes,1706,582,26,38,7,9,4,498,12,24,0
+dexcom_t2d,1706,445,27,20,4,5,0,389,10,20,0
+libre,1706,1609,96,133,23,6,10,1341,1,3,0
+libre_healthy,1706,582,43,75,16,4,4,440,0,0,0
+libre_prediabetes,1706,582,26,38,5,2,5,506,1,2,0
+libre_t2d,1706,445,27,20,2,0,1,395,0,1,0

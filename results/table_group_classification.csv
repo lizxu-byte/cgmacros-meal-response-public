@@ -1,0 +1,4 @@
+feature_set,balanced_accuracy,macro_f1,perm_p,null_mean,n
+wearable_only,0.2819,0.2626,0.5771,0.2864,45
+cgm_derived,0.4946,0.4946,0.00995,0.2813,45
+wearable_plus_cgm,0.5601,0.5626,0.004975,0.2976,45

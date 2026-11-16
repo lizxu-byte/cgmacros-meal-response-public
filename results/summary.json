@@ -1,0 +1,452 @@
+{
+  "n_participants": 45,
+  "group_n": {
+    "healthy": 15,
+    "prediabetes": 16,
+    "t2d": 14
+  },
+  "coverage": {
+    "dexcom_native_readings": 105913,
+    "libre_native_readings": 41928,
+    "participants_with_mets": 34,
+    "participants_with_intensity_only": 11,
+    "participants_with_activity_kcal": 44,
+    "hr_missing_pct_median": 7.04878880928011,
+    "recording_days_median": 10.634722222222223
+  },
+  "cgm_agreement": {
+    "n_participants": 45,
+    "n_pairs": 104329,
+    "bias_mgdl": -31.651490077089314,
+    "loa_low": -80.39043373093898,
+    "loa_high": 17.087453576760353,
+    "mard_pct": 24.887367612516147,
+    "mard_pct_pooled": 24.412211287606556,
+    "pearson_r": 0.8307791554582781,
+    "per_participant_bias_median": -32.89030197444832,
+    "per_participant_bias_q1": -39.68315033211333,
+    "per_participant_bias_q3": -24.943369778525373,
+    "per_participant_mard_median": 23.73566779521719
+  },
+  "cgm_lag_scan": [
+    {
+      "lag_min": -20,
+      "median_r": 0.7790508605447966,
+      "median_bias": -33.16635233018997,
+      "n_participants": 45
+    },
+    {
+      "lag_min": -15,
+      "median_r": 0.8153260856528147,
+      "median_bias": -33.14981549815498,
+      "n_participants": 45
+    },
+    {
+      "lag_min": -10,
+      "median_r": 0.8298634490683484,
+      "median_bias": -33.0553086419753,
+      "n_participants": 45
+    },
+    {
+      "lag_min": -5,
+      "median_r": 0.8331972798901256,
+      "median_bias": -32.95888501742161,
+      "n_participants": 45
+    },
+    {
+      "lag_min": 0,
+      "median_r": 0.8170627292763785,
+      "median_bias": -32.89030197444831,
+      "n_participants": 45
+    },
+    {
+      "lag_min": 5,
+      "median_r": 0.7843292593644481,
+      "median_bias": -32.85365286855483,
+      "n_participants": 45
+    },
+    {
+      "lag_min": 10,
+      "median_r": 0.7387086129597833,
+      "median_bias": -32.8484241103849,
+      "n_participants": 45
+    },
+    {
+      "lag_min": 15,
+      "median_r": 0.6882528648749389,
+      "median_bias": -32.862076978939726,
+      "n_participants": 45
+    },
+    {
+      "lag_min": 20,
+      "median_r": 0.6374229855477546,
+      "median_bias": -32.90873983739838,
+      "n_participants": 45
+    }
+  ],
+  "cv_threshold": [
+    {
+      "device": "dexcom",
+      "group": "healthy",
+      "n": 15,
+      "n_cv_lt36_stable": 15,
+      "cv_max": 29.21086694495117
+    },
+    {
+      "device": "dexcom",
+      "group": "prediabetes",
+      "n": 16,
+      "n_cv_lt36_stable": 16,
+      "cv_max": 28.681723274769755
+    },
+    {
+      "device": "dexcom",
+      "group": "t2d",
+      "n": 14,
+      "n_cv_lt36_stable": 14,
+      "cv_max": 33.29682719370395
+    },
+    {
+      "device": "libre",
+      "group": "healthy",
+      "n": 15,
+      "n_cv_lt36_stable": 15,
+      "cv_max": 34.70977482682122
+    },
+    {
+      "device": "libre",
+      "group": "prediabetes",
+      "n": 16,
+      "n_cv_lt36_stable": 15,
+      "cv_max": 36.77976753936118
+    },
+    {
+      "device": "libre",
+      "group": "t2d",
+      "n": 14,
+      "n_cv_lt36_stable": 12,
+      "cv_max": 38.57387258575202
+    }
+  ],
+  "overlap_by_group": [
+    {
+      "group": "healthy",
+      "episodes": 582,
+      "plausible_episodes": 539,
+      "excluded_overlap": 75,
+      "pct_of_all_episodes": 12.88659793814433,
+      "pct_of_plausible_episodes": 13.91465677179963,
+      "per_participant_pct_median": 9.67741935483871,
+      "per_participant_pct_q1": 6.876456876456876,
+      "per_participant_pct_q3": 19.363636363636363,
+      "kw_p_per_participant": 0.011035046028662884
+    },
+    {
+      "group": "prediabetes",
+      "episodes": 582,
+      "plausible_episodes": 556,
+      "excluded_overlap": 38,
+      "pct_of_all_episodes": 6.529209621993127,
+      "pct_of_plausible_episodes": 6.83453237410072,
+      "per_participant_pct_median": 6.0661764705882355,
+      "per_participant_pct_q1": 0.0,
+      "per_participant_pct_q3": 8.48515519568151,
+      "kw_p_per_participant": 0.011035046028662884
+    },
+    {
+      "group": "t2d",
+      "episodes": 445,
+      "plausible_episodes": 418,
+      "excluded_overlap": 20,
+      "pct_of_all_episodes": 4.49438202247191,
+      "pct_of_plausible_episodes": 4.784688995215311,
+      "per_participant_pct_median": 3.1947261663286,
+      "per_participant_pct_q1": 0.0,
+      "per_participant_pct_q3": 6.309297912713472,
+      "kw_p_per_participant": 0.011035046028662884
+    }
+  ],
+  "meal_records": 1706,
+  "exclusions": {
+    "dexcom": {
+      "episodes": 1609,
+      "excl_implausible_nutrients": 96,
+      "excl_overlap_next_meal": 133,
+      "excl_no_baseline_reading": 19,
+      "excl_cgm_not_covering_window": 17,
+      "excl_cgm_gap_in_window": 4,
+      "eligible": 1340,
+      "eligible_with_long_flat_only": 33,
+      "eligible_with_long_sloped_only": 75,
+      "eligible_with_long_flat_and_sloped": 3
+    },
+    "libre": {
+      "episodes": 1609,
+      "excl_implausible_nutrients": 96,
+      "excl_overlap_next_meal": 133,
+      "excl_no_baseline_reading": 23,
+      "excl_cgm_not_covering_window": 6,
+      "excl_cgm_gap_in_window": 10,
+      "eligible": 1341,
+      "eligible_with_long_flat_only": 1,
+      "eligible_with_long_sloped_only": 3,
+      "eligible_with_long_flat_and_sloped": 0
+    }
+  },
+  "meal_type_counts_episodes": {
+    "dinner": 441,
+    "breakfast": 436,
+    "lunch": 434,
+    "snack": 298
+  },
+  "photos": {
+    "photo_files_in_archive": 3454,
+    "meal_records": 1706,
+    "meal_records_with_photo": 1644,
+    "episodes": 1609,
+    "episodes_with_photo": 1552
+  },
+  "mixed_model": {
+    "primary_dexcom_sqrt": {
+      "n_meals": 1279,
+      "n_participants": 44,
+      "transform": "sqrt",
+      "random_carb_slope": false,
+      "lr_stat_slope": 3.87327381061732,
+      "lr_p_slope": 0.09662439450385915,
+      "converged": true,
+      "optimizer": "bfgs",
+      "random_effects_cov": {
+        "Group": {
+          "Group": 1.69902
+        }
+      },
+      "residual_var": 9.282051950260515,
+      "resid_skew": -0.14279808865632665,
+      "fit_warnings": [
+        "Gradient optimization failed, |grad| = 329.197802",
+        "Gradient optimization failed, |grad| = 85.716794",
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals",
+        "MixedLM optimization failed, trying a different optimizer may help.",
+        "Random effects covariance is singular",
+        "The Hessian matrix at the estimated parameter values is not positive definite.",
+        "The MLE may be on the boundary of the parameter space.",
+        "The random effects covariance matrix is singular."
+      ],
+      "interaction_terms": {
+        "carbs10:group[prediabetes]": {
+          "estimate": 0.070859602986812,
+          "ci_low": -0.045319287525193014,
+          "ci_high": 0.18703849349881702,
+          "p": 0.23192398206297438
+        },
+        "carbs10:group[t2d]": {
+          "estimate": 0.15480481596425535,
+          "ci_low": 0.017430699148962725,
+          "ci_high": 0.292178932779548,
+          "p": 0.02719873079993356
+        }
+      },
+      "resid_skew_untransformed": 0.8526469166286851
+    },
+    "sensitivity_dexcom_log1p": {
+      "n_meals": 1279,
+      "n_participants": 44,
+      "transform": "log1p",
+      "random_carb_slope": false,
+      "lr_stat_slope": 4.0170741822366836,
+      "lr_p_slope": 0.08961330968355559,
+      "converged": true,
+      "optimizer": "bfgs",
+      "random_effects_cov": {
+        "Group": {
+          "Group": 0.16177
+        }
+      },
+      "residual_var": 1.5018816367318881,
+      "resid_skew": -0.9329116687839784,
+      "fit_warnings": [
+        "Gradient optimization failed, |grad| = 197.390639",
+        "Gradient optimization failed, |grad| = 273.489948",
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals",
+        "MixedLM optimization failed, trying a different optimizer may help.",
+        "Random effects covariance is singular",
+        "The Hessian matrix at the estimated parameter values is not positive definite.",
+        "The MLE may be on the boundary of the parameter space.",
+        "The random effects covariance matrix is singular."
+      ],
+      "interaction_terms": {
+        "carbs10:group[prediabetes]": {
+          "estimate": 0.016538098402516695,
+          "ci_low": -0.030118328286828207,
+          "ci_high": 0.0631945250918616,
+          "p": 0.4872183716125148
+        },
+        "carbs10:group[t2d]": {
+          "estimate": 0.05967645238873368,
+          "ci_low": 0.004461348228760667,
+          "ci_high": 0.1148915565487067,
+          "p": 0.03414730464990176
+        }
+      }
+    },
+    "sensitivity_dexcom_sqrt_plus_baseline": {
+      "n_meals": 1279,
+      "n_participants": 44,
+      "transform": "sqrt",
+      "random_carb_slope": false,
+      "lr_stat_slope": 2.156189994981105,
+      "lr_p_slope": 0.24111973295376005,
+      "converged": true,
+      "optimizer": "bfgs",
+      "random_effects_cov": {
+        "Group": {
+          "Group": 4.16748
+        }
+      },
+      "residual_var": 7.5407096206332795,
+      "resid_skew": -0.04534599922960388,
+      "fit_warnings": [
+        "Gradient optimization failed, |grad| = 0.304041",
+        "Gradient optimization failed, |grad| = 156.778561",
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals",
+        "MixedLM optimization failed, trying a different optimizer may help.",
+        "Random effects covariance is singular",
+        "The Hessian matrix at the estimated parameter values is not positive definite.",
+        "The MLE may be on the boundary of the parameter space.",
+        "The random effects covariance matrix is singular."
+      ],
+      "interaction_terms": {
+        "carbs10:group[prediabetes]": {
+          "estimate": 0.0713843928201181,
+          "ci_low": -0.0335400772407729,
+          "ci_high": 0.1763088628810091,
+          "p": 0.18238634775488627
+        },
+        "carbs10:group[t2d]": {
+          "estimate": 0.13486295944075033,
+          "ci_low": 0.01089965752748831,
+          "ci_high": 0.2588262613540123,
+          "p": 0.03298246068150822
+        }
+      }
+    },
+    "replication_libre_sqrt": {
+      "n_meals": 1282,
+      "n_participants": 44,
+      "transform": "sqrt",
+      "random_carb_slope": false,
+      "lr_stat_slope": 1.8633553585805203,
+      "lr_p_slope": 0.28306518674932213,
+      "converged": true,
+      "optimizer": "lbfgs",
+      "random_effects_cov": {
+        "Group": {
+          "Group": 2.0903
+        }
+      },
+      "residual_var": 8.309867203465664,
+      "resid_skew": -0.19232010054977725,
+      "fit_warnings": [
+        "Gradient optimization failed, |grad| = 0.061564",
+        "Gradient optimization failed, |grad| = 310.067983",
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals",
+        "MixedLM optimization failed, trying a different optimizer may help.",
+        "Random effects covariance is singular",
+        "The Hessian matrix at the estimated parameter values is not positive definite.",
+        "The MLE may be on the boundary of the parameter space.",
+        "The random effects covariance matrix is singular."
+      ],
+      "interaction_terms": {
+        "carbs10:group[prediabetes]": {
+          "estimate": 0.08703092553726048,
+          "ci_low": -0.023291593859759332,
+          "ci_high": 0.1973534449342803,
+          "p": 0.12206327646581511
+        },
+        "carbs10:group[t2d]": {
+          "estimate": 0.14708798055133113,
+          "ci_low": 0.016747613958177615,
+          "ci_high": 0.2774283471444846,
+          "p": 0.026980316558120568
+        }
+      }
+    }
+  },
+  "prediction_n": {
+    "meals": 1340,
+    "participants": 45,
+    "temporal_train": 919,
+    "temporal_test": 421
+  },
+  "classification": [
+    {
+      "feature_set": "wearable_only",
+      "balanced_accuracy": 0.28194444444444444,
+      "macro_f1": 0.2626262626262626,
+      "perm_p": 0.5771144278606966,
+      "null_mean": 0.2864335317460317,
+      "n": 45
+    },
+    {
+      "feature_set": "cgm_derived",
+      "balanced_accuracy": 0.4946428571428571,
+      "macro_f1": 0.4946428571428571,
+      "perm_p": 0.009950248756218905,
+      "null_mean": 0.28128571428571425,
+      "n": 45
+    },
+    {
+      "feature_set": "wearable_plus_cgm",
+      "balanced_accuracy": 0.5601190476190476,
+      "macro_f1": 0.5625964074239936,
+      "perm_p": 0.004975124378109453,
+      "null_mean": 0.29761507936507936,
+      "n": 45
+    }
+  ],
+  "wearable_by_group": {
+    "hr_median": {
+      "healthy_median": 78.0,
+      "prediabetes_median": 77.0,
+      "t2d_median": 79.5,
+      "kw_p": 0.8430835691602331,
+      "eta2_H": -0.03949099081691785
+    },
+    "hr_p05": {
+      "healthy_median": 58.0,
+      "prediabetes_median": 62.0,
+      "t2d_median": 62.5,
+      "kw_p": 0.6854063618425164,
+      "eta2_H": -0.029631267255072407
+    },
+    "hr_sd": {
+      "healthy_median": 13.484813860227439,
+      "prediabetes_median": 11.8574465127377,
+      "t2d_median": 13.685877629895185,
+      "kw_p": 0.10671430427099679,
+      "eta2_H": 0.058933336619672004
+    },
+    "activity_kcal_per_min": {
+      "healthy_median": 1.6983839480985077,
+      "prediabetes_median": 1.910449764827808,
+      "t2d_median": 1.8037614544268523,
+      "kw_p": 0.6237409119639648,
+      "eta2_H": -0.025755112096575425
+    },
+    "mets_mean": {
+      "healthy_median": 1.6431132738379643,
+      "prediabetes_median": 1.712485699850232,
+      "t2d_median": 1.6293450525585915,
+      "kw_p": 0.8668362739597024,
+      "eta2_H": -0.05529644115710787
+    },
+    "hr_night_median": {
+      "healthy_median": 62.0,
+      "prediabetes_median": 66.5,
+      "t2d_median": 67.0,
+      "kw_p": 0.974624494146407,
+      "eta2_H": -0.04639509445826998
+    }
+  }
+}

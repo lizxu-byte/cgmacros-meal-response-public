@@ -1,0 +1,7 @@
+device,group,n,n_cv_lt36_stable,cv_max
+dexcom,healthy,15,15,29.21
+dexcom,prediabetes,16,16,28.68
+dexcom,t2d,14,14,33.3
+libre,healthy,15,15,34.71
+libre,prediabetes,16,15,36.78
+libre,t2d,14,12,38.57

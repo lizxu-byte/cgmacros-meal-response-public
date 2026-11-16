@@ -1,0 +1,10 @@
+feature_set,true,pred_healthy,pred_prediabetes,pred_t2d
+wearable_only,true_healthy,8,5,2
+wearable_only,true_prediabetes,3,5,8
+wearable_only,true_t2d,7,7,0
+cgm_derived,true_healthy,9,5,1
+cgm_derived,true_prediabetes,6,5,5
+cgm_derived,true_t2d,0,6,8
+wearable_plus_cgm,true_healthy,9,6,0
+wearable_plus_cgm,true_prediabetes,4,7,5
+wearable_plus_cgm,true_t2d,1,4,9

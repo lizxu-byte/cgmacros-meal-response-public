@@ -1,0 +1,13 @@
+model,group,slope_per10g,se,ci_low,ci_high,p
+primary_dexcom_sqrt,healthy,0.2978,0.04211,0.2152,0.3803,1.531e-12
+primary_dexcom_sqrt,prediabetes,0.3686,0.04887,0.2728,0.4644,4.592e-14
+primary_dexcom_sqrt,t2d,0.4526,0.0607,0.3336,0.5715,8.921e-14
+sensitivity_dexcom_log1p,healthy,0.1072,0.01691,0.07404,0.1403,2.321e-10
+sensitivity_dexcom_log1p,prediabetes,0.1237,0.01963,0.08524,0.1622,2.929e-10
+sensitivity_dexcom_log1p,t2d,0.1669,0.02441,0.119,0.2147,8.112e-12
+sensitivity_dexcom_sqrt_plus_baseline,healthy,0.306,0.03803,0.2315,0.3806,8.493e-16
+sensitivity_dexcom_sqrt_plus_baseline,prediabetes,0.3774,0.04412,0.2909,0.4639,1.189e-17
+sensitivity_dexcom_sqrt_plus_baseline,t2d,0.4409,0.05474,0.3336,0.5482,7.998e-16
+replication_libre_sqrt,healthy,0.3115,0.04028,0.2326,0.3905,1.038e-14
+replication_libre_sqrt,prediabetes,0.3986,0.04615,0.3081,0.489,5.811e-18
+replication_libre_sqrt,t2d,0.4586,0.05736,0.3462,0.571,1.297e-15
